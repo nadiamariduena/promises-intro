@@ -9,7 +9,7 @@ function delay(ms) {
     // set time out is a function with 2 paramnters: resolve() and  }, ms);
     setTimeout(() => {
       resolve();
-      // throw a function which is resolve
+      // trow a function which is resolve
     }, ms);
     // the ms serve to know how many milliseconds the user will wait
     // now tell it HOW MUch?
