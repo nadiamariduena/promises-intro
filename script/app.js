@@ -42,23 +42,29 @@ function myFunction() {
 //------------------------------------------------------
 //------------------------------------------------------
 /*
-// -1-
+//
+//
+
+
+
 function delay(ms) {
-  // -6
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve();
     }, ms);
   });
 }
-// -2
+
 let ms = 3000;
-// -3
 delay(ms).then(myFunction);
-// -4
+
 function myFunction() {
   let text = document.querySelector(".text");
-  // -5
   text.innerHTML = `It took me ${ms} ms to be done`;
 }
+
+
+
+//
+//
 */
